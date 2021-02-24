@@ -1,0 +1,13 @@
+.logo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading {
+    background: #fd1a04;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
