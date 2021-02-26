@@ -44,7 +44,8 @@ if($_SESSION['status']!="Active")
                             <label for=""><b>Receipt Number :</b></label>
                         </td>
                         <td>
-                            <input type="text" name="rNum" class="form-control"  required>
+                            <input type="text" name="rNum" class="form-control"
+                                   placeholder="<?php echo "No." . (rand());?> required>
                         </td>
                     </tr>
                     <tr>
@@ -107,13 +108,13 @@ if($_SESSION['status']!="Active")
                         <td class="text-center" colspan="2">
                             <button type="submit" class="btn btn-success">Submit</button>
                             &nbsp; &nbsp;
-                            <a href="searchReceiptU.php" class="btn btn-primary">Update</a>
+                            <a href="searchReceiptU.php" class="btn btn-outline-dark">Update</a>
                             &nbsp; &nbsp;
                             <a href="searchReceiptD.php" class="btn btn-danger">Delete</a>
                             &nbsp; &nbsp;
-                            <a href="searchReceipt.php" class="btn btn-primary">Display</a>
+                            <a href="searchReceipt.php" class="btn btn-outline-dark">Display</a>
                             &nbsp; &nbsp;
-                            <a href="management_dashboard.php" class="btn btn-info">Main</a>
+                            <a href="management_dashboard.php" class="btn btn-secondary">Main</a>
                         </td>
                     </tr>
                 </table>

@@ -31,7 +31,7 @@
                 <table class="table table-striped table-responsive-sm">
                     <tr>
                         <td>
-                            <label for=""><b>Username : </b></label>
+                            <label for="" class="label"><b>Username : </b></label>
                         </td>
                         <td>
                             <input type="text" name="uName" class="form-control" placeholder="* Your Username" required>
@@ -39,7 +39,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <label for=""><b>Password : </b></label>
+                            <label for="" class="label"><b>Password : </b></label>
                         </td>
                         <td>
                             <input type="password" name="passWd" value="" class="form-control" placeholder="* Your Password" required>

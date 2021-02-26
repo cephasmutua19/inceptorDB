@@ -35,42 +35,38 @@ if($_SESSION['status']!="Active")
 </div>
 <br>
 <div class="container">
-    <div class="row">
-        <div class="col-sm-2">
+<!--    <div class="row">-->
+<!--        <div class="col-sm-2">-->
             <!-- A vertical navbar -->
             <nav class="navbar">
 
                 <!-- Links -->
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link btn btn-primary" href="enquiries.php">Enquiries</a>
+                        <a class="nav-link btn btn-secondary" href="enquiries.php">Enquiries</a>
                     </li>
+                    &nbsp;
                     <br>
                     <li class="nav-item">
-                        <a class="nav-link btn btn-primary" href="admissions.php">Admissions</a>
+                        <a class="nav-link btn btn-secondary" href="admissions.php">Admissions</a>
                     </li>
+                    &nbsp;
                     <br>
                     <li class="nav-item">
-                        <a class="nav-link btn btn-primary" href="billing.php">Bill/Invoice</a>
+                        <a class="nav-link btn btn-secondary" href="billing.php">Bill/Invoice</a>
                     </li>
+                    &nbsp;
                     <br>
                     <li class="nav-item">
-                        <a class="nav-link btn btn-primary" href="receipt.php">Receipt</a>
+                        <a class="nav-link btn btn-secondary" href="receipt.php">Receipt</a>
                     </li>
+                    &nbsp;
                     <br>
                     <li class="nav-item">
-                        <a class="nav-link btn btn-secondary" href="logout.php">Logout</a>
+                        <a class="nav-link btn btn-danger" href="logout.php">Logout</a>
                     </li>
                 </ul>
-
             </nav>
-        </div>
-        <div class="col-sm-10 " style="margin: auto; align-items: center; display: flex;">
-            <div><img src="image/logolink.png" alt="logo" width="200em"></div>
-            &nbsp; &nbsp;
-            <div><h1><b>WELCOME</b></h1></div>
-        </div>
-    </div>
 </div>
 </body>
 </html>

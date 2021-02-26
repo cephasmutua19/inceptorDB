@@ -37,11 +37,11 @@ if($_SESSION['status']!="Active")
     <div class="row">
         <div class="col-sm-3"></div>
         <div class="col-sm-6">
-            <form action="newEnquiries.php" method="post">
+            <form class="form" action="newEnquiries.php" method="post">
                 <table class="table table-striped table-responsive-sm">
                     <tr>
                         <td class="text-right">
-                            <label for=""><b>Enquiry Date</b></label>
+                            <label for="" class="label"><b>Enquiry Date</b></label>
                         </td>
                         <td>
                             <input type="date" name="enq_date" class="form-control" required>
@@ -49,7 +49,7 @@ if($_SESSION['status']!="Active")
                     </tr>
                     <tr>
                         <td class="text-right">
-                            <label for=""><b>Surname :</b></label>
+                            <label for="" class="label"><b>Surname :</b></label>
                         </td>
                         <td>
                             <input type="text" name="fName" class="form-control" required>
@@ -57,7 +57,7 @@ if($_SESSION['status']!="Active")
                     </tr>
                     <tr>
                         <td class="text-right">
-                            <label for=""><b>Middle Name :</b></label>
+                            <label for="" class="label"><b>Middle Name :</b></label>
                         </td>
                         <td>
                             <input type="text" name="mName" class="form-control" required>
@@ -65,7 +65,7 @@ if($_SESSION['status']!="Active")
                     </tr>
                     <tr>
                         <td class="text-right">
-                            <label for=""><b>Last Name :</b></label>
+                            <label for="" class="label"><b>Last Name :</b></label>
                         </td>
                         <td>
                             <input type="text" name="lName" class="form-control" required>
@@ -73,7 +73,7 @@ if($_SESSION['status']!="Active")
                     </tr>
                     <tr>
                         <td class="text-right">
-                            <label for=""><b>Telephone :</b></label>
+                            <label for="" class="label"><b>Telephone :</b></label>
                         </td>
                         <td>
                             <input type="number" name="phone" class="form-control" required>
@@ -81,7 +81,7 @@ if($_SESSION['status']!="Active")
                     </tr>
                     <tr>
                         <td class="text-right">
-                            <label for=""><b>Course :</b></label>
+                            <label for="" class="label"><b>Course :</b></label>
                         </td>
                         <td>
                             <select name="course" id="" class="form-control" required>
@@ -96,7 +96,7 @@ if($_SESSION['status']!="Active")
                     </tr>
                     <tr>
                         <td class="text-right">
-                            <label for=""><b>Comments :</b></label>
+                            <label for="" class="label"><b>Comments :</b></label>
                         </td>
                         <td>
                             <textarea name="comments" id="" cols="30" rows="10"></textarea>
@@ -106,13 +106,13 @@ if($_SESSION['status']!="Active")
                         <td class="text-center" colspan="2">
                             <button type="submit" class="btn btn-success">Send</button>
                             &nbsp; &nbsp;
-                            <a href="searchEnquiriesU.php" class="btn btn-primary">Update</a>
+                            <a href="searchEnquiriesU.php" class="btn btn-outline-dark">Update</a>
                             &nbsp; &nbsp;
                             <a href="searchEnquiriesD.php" class="btn btn-danger">Delete</a>
                             &nbsp; &nbsp;
-                            <a href="searchEnquiries.php" class="btn btn-primary">Display</a>
+                            <a href="searchEnquiries.php" class="btn btn-outline-dark">Display</a>
                             &nbsp; &nbsp;
-                            <a href="management_dashboard.php" class="btn btn-info">Main</a>
+                            <a href="management_dashboard.php" class="btn btn-secondary">Main</a>
                         </td>
                     </tr>
                 </table>

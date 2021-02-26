@@ -44,7 +44,8 @@ if($_SESSION['status']!="Active")
                             <label for=""><b>Billing ID :</b></label>
                         </td>
                         <td>
-                            <input type="text" name="bId" class="form-control"  required>
+                            <input type="text" name="bId" class="form-control"
+                                   placeholder="<?php echo "No." . (rand());?> required>
                         </td>
                     </tr>
                     <tr>
@@ -107,13 +108,13 @@ if($_SESSION['status']!="Active")
                         <td class="text-center" colspan="2">
                             <button type="submit" class="btn btn-success">Save</button>
                             &nbsp; &nbsp;
-                            <a href="searchBillingU.php" class="btn btn-primary">Update</a
+                            <a href="searchBillingU.php" class="btn btn-outline-dark">Update</a>
                                     &nbsp; &nbsp;
-                            <a href="searchBillingD.php" class="btn btn-danger">Delete</a
+                            <a href="searchBillingD.php" class="btn btn-danger">Delete</a>
                                     &nbsp; &nbsp;
-                            <a href="searchBilling.php" class="btn btn-primary">Display</a>
+                            <a href="searchBilling.php" class="btn btn-outline-dark">Display</a>
                             &nbsp; &nbsp;
-                            <a href="management_dashboard.php" class="btn btn-info">Main</a>
+                            <a href="management_dashboard.php" class="btn btn-secondary">Main</a>
                         </td>
                     </tr>
                 </table>
